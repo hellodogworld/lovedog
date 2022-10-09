@@ -1,0 +1,79 @@
+body {color: black;
+background-color: whitesmoke;
+font-family: 'Times New Roman', Times, serif;
+
+}
+h1 {background-color: yellowgreen;
+}
+
+
+p {color:black;}
+font-family: 'Times New Roman',Times, serif;
+font-weight:800;
+font-style:italic;
+text-indent:50px;
+letter-spacing: 1.5px;
+}
+
+h3{
+    text-align: left;
+    text-transform:initial;
+    color:black;
+}
+
+.navbar {
+width: 100%;
+background-color: #555
+overflow: auto;
+}
+      
+.navbar a {
+float: right;
+padding: 12px;
+color:green;
+text-decoration: none;
+font-size: 17px;
+}
+      
+.navbar a:hover {
+background-color: #04AA6D;
+}
+      
+.active {
+background-color: #04AA6D;
+}
+      
+@media screen and (max-width: 500px) {
+.navbar a {
+float: none;
+display: block;
+}
+}
+
+input[type=text], select, textarea {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 5px;
+box-sizing: border-box;
+margin-top: 5px; margin-bottom: 15px;
+}
+    
+input[type=submit] {
+background-color: #04AA6D;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+    
+input[type=submit]:hover {
+background-color: #45a049;
+}
+      
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
